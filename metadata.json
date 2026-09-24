@@ -1,0 +1,6 @@
+{
+  "name": "MR Expense Tracker",
+  "description": "A simple, premium offline personal expense and financial tracker with dark theme, income tracking, monthly dashboard, budget alerts, and spending trends.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
