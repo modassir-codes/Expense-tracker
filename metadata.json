@@ -1,6 +1,6 @@
 {
   "name": "MR Expense Tracker",
-  "description": "A simple, premium offline personal expense and financial tracker with dark theme, income tracking, monthly dashboard, budget alerts, and spending trends.",
+  "description": "MR Expense Tracker is a modern expense tracking web app built by Modassir Raja to help users manage and track their personal expenses.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

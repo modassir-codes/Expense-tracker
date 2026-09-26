@@ -3,11 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
-    <title>MR Expense Tracker</title>
-    <meta name="description" content="A simple, premium offline personal expense and financial tracker with dark theme, income tracking, monthly dashboard, budget alerts, and spending trends." />
+    <title>MR Expense Tracker | Modassir Raja</title>
+    <meta name="description" content="MR Expense Tracker is a modern expense tracking web app built by Modassir Raja to help users manage and track their personal expenses." />
+    <meta name="author" content="Modassir Raja" />
+    <link rel="canonical" href="https://etrackerr.vercel.app/" />
+    <meta name="robots" content="index, follow" />
     
     <!-- Security & Privacy Headers -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' ws: wss: data: blob:; worker-src 'self' blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' 'wasm-unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://etrackerr.vercel.app; font-src 'self' data:; connect-src 'self' ws: wss: data: blob:; worker-src 'self' blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;" />
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
 
@@ -24,10 +27,46 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     
     <!-- Open Graph & Social -->
-    <meta property="og:title" content="MR Expense Tracker" />
-    <meta property="og:description" content="A simple, premium offline personal expense and financial tracker with dark theme, income tracking, monthly dashboard, budget alerts, and spending trends." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://etrackerr.vercel.app/" />
+    <meta property="og:title" content="MR Expense Tracker | Modassir Raja" />
+    <meta property="og:description" content="MR Expense Tracker is a modern expense tracking web app built by Modassir Raja to help users manage and track their personal expenses." />
+    <meta property="og:site_name" content="MR Expense Tracker" />
+    <meta property="og:image" content="https://etrackerr.vercel.app/pwa-512x512.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="MR Expense Tracker by Modassir Raja" />
+
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://etrackerr.vercel.app/" />
+    <meta name="twitter:title" content="MR Expense Tracker | Modassir Raja" />
+    <meta name="twitter:description" content="MR Expense Tracker is a modern expense tracking web app built by Modassir Raja to help users manage and track their personal expenses." />
+    <meta name="twitter:image" content="https://etrackerr.vercel.app/pwa-512x512.png" />
+    <meta name="twitter:image:alt" content="MR Expense Tracker by Modassir Raja" />
+
+    <!-- JSON-LD Structured Data for Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "MR Expense Tracker",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web",
+      "url": "https://etrackerr.vercel.app/",
+      "description": "MR Expense Tracker is a modern expense tracking web app built by Modassir Raja.",
+      "author": {
+        "@type": "Person",
+        "name": "Modassir Raja",
+        "url": "https://modassirraja.vercel.app/"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

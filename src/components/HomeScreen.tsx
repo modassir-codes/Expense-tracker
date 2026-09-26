@@ -461,6 +461,33 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </button>
         )}
       </div>
+
+      {/* Attribution & SEO Footer */}
+      <footer
+        id="home-seo-attribution-footer"
+        className={`pt-6 pb-2 text-center space-y-2 border-t transition-colors ${
+          isDarkMode ? 'border-neutral-800/80 text-neutral-400' : 'border-neutral-200 text-neutral-600'
+        }`}
+      >
+        <p className="text-xs font-medium">
+          MR Expense Tracker — Built by{' '}
+          <a
+            href="https://modassirraja.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-emerald-500 hover:text-emerald-400 font-semibold underline underline-offset-2 transition-colors"
+          >
+            Modassir Raja
+          </a>
+        </p>
+        <p
+          className={`text-[11px] leading-relaxed max-w-xs mx-auto ${
+            isDarkMode ? 'text-neutral-500' : 'text-neutral-500'
+          }`}
+        >
+          A modern Expense Tracker for smart personal expense management and offline-ready expense tracking.
+        </p>
+      </footer>
     </div>
   );
 };
