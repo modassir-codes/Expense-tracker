@@ -20,12 +20,6 @@ A simple and user-friendly Expense Tracker web application for recording, organi
 - 🎨 CSS
 - 🧩 JavaScript
 
-💻 Run Locally
-
-git clone https://github.com/modassir-codes/Expense-tracker.git
-cd Expense-tracker
-npm install
-npm run dev
 
 👨‍💻 Developer
 
@@ -33,7 +27,9 @@ Modassir Raja
 Full Stack Web Developer
 
 🌐 Portfolio: https://modassirraja.vercel.app/
+
 💼 LinkedIn: https://www.linkedin.com/in/modassir-raja/
+
 🐙 GitHub: https://github.com/modassir-codes
 
 ---
